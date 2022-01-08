@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #A69CA4;
+    --cor2: #050505;
+    --cor3: #736E55;
+    --cor4: #403B2C;
+    --cor5: #A69D81;
+    --fonte1: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to top, var(--cor4), var(--cor2));
+}
+
+header{
+    background-color: var(--cor2);
+}
+
+header img{
+    margin: auto;
+    display:block;
+    width: 50%;
+}
+
+nav{
+    padding: 15px;
+    text-align: center;
+    background-color: var(--cor4);
+    
+}
+
+nav a{
+    padding: 15px;
+    color: var(--cor2);
+    text-decoration: none;
+    font-weight: bold;  
+    transition-duration: 1s;
+}
+
+nav a:hover{
+    background-color: var(--cor1);
+    border-radius: 10px;
+    
+}
+figure{
+    display: block;
+    text-align: center;
+    margin: 15px;
+    font-size: 0.9em;
+}
+
+.neil-gaiman{
+    width: 100%;
+}
+
+
+
+main{
+    background-color: var(--cor5);
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+
+main p{
+    font-family: var(--fonte1);
+    margin: 15px 0px;
+    line-height: 1.9em;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+}
+
+aside{
+    background-color: var(--cor1);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+ol{
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer{
+    background-color: var(--cor3);
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 10px;
+
+}
+
+h1{
+    background-image: linear-gradient(to right, var(--cor3), var(--cor1), transparent);
+    font-size: 1.7em;
+}
+
+h2{
+    background-image: linear-gradient(to right, var(--cor3), var(--cor1), transparent);    
+}
+
+h3{
+    background-color: var(--cor4);
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    margin: -15px -15px 15px -15px ;
+}
+
+main a{ 
+    background-color: var(--cor1);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px;
+    color: var(--cor4);
+    
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+
+
